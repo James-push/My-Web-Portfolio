@@ -1,0 +1,22 @@
+/* Footer tagline theme-reactive color */
+.footer-tagline {
+  color: #6b7280; /* Tailwind neutral-500 */
+}
+[data-theme="dark"] .footer-tagline {
+  color: #d1d5db; /* Tailwind neutral-300 */
+}
+/* Custom fixes for DaisyUI/Tailwind/react components */
+.my-typewriter span {
+  color: #6b7280; /* Tailwind neutral-500 */
+}
+[data-theme="dark"] .my-typewriter span {
+  color: #d1d5db; /* Tailwind neutral-300 */
+}
+
+
+.custom-skill-label {
+  color: #5a5a5a; /* Tailwind neutral-700 */
+}
+[data-theme="dark"] .custom-skill-label {
+  color: #d1d5db; /* Tailwind neutral-300 */
+}

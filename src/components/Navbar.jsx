@@ -17,13 +17,22 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/30 dark:bg-gray-900/30 border-b border-white/20 dark:border-gray-700/20">
+    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/30 dark:bg-gray-900/10 dark:border-gray-700/30 shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <h1 className="text-lg md:text-xl font-semibold tracking-wide">JamesJS</h1>
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          offset={-70}
+          className="cursor-pointer text-lg md:text-xl font-bold tracking-wide"
+          aria-label="Home"
+        >
+          Jesse<span className="text-primary">.JS</span>
+        </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-sm font-medium">
+  <ul className="hidden md:flex space-x-8 text-sm md:text-base font-semibold">
           {navItems.map((item) => (
             <li key={item.id}>
               <Link
@@ -31,7 +40,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="cursor-pointer transition-colors hover:text-blue-500"
+                className="cursor-pointer transition-colors hover:text-primary"
               >
                 {item.label}
               </Link>
@@ -70,7 +79,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden bg-white/30 dark:bg-gray-900/30 backdrop-blur-md border-t border-white/20 dark:border-gray-700/20 px-6 py-4 space-y-4 text-sm font-medium">
+  <ul className="md:hidden bg-white/30 dark:bg-gray-900/30 backdrop-blur-md border-t border-white/20 dark:border-gray-700/20 px-6 py-4 space-y-4 text-sm font-semibold">
           {navItems.map((item) => (
             <li key={item.id}>
               <Link
@@ -78,7 +87,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="block cursor-pointer transition-colors hover:text-blue-500"
+                className="block cursor-pointer transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}

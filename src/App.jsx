@@ -5,27 +5,18 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Skills from "./components/Skills"; 
 import Footer from "./components/Footer"
+import Experience from "./components/Experience";
 
 function App() {
   return (
     <div className="bg-base-100 text-base-content min-h-screen">
 
-       {/* Navbar*/}
       <Navbar />
-
-      {/* Hero / Home */}
       <Home />
-
-      {/* Skills */}
       <Skills />
-
-      {/* About */}
       <About  />
-
-      {/* Other sections */}
+      <Experience />
       <Contact />
-
-      {/* Footer */}
       <Footer />
       
       
