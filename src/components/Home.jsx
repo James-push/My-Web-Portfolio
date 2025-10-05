@@ -10,7 +10,7 @@ const Home = () => {
     const roles = ["Developer", "IT Support", "Network"];
   return (
     <section
-      className="min-h-screen flex items-center bg-base-100 px-6 lg:px-20 transition-colors duration-500"
+      className="min-h-screen flex items-center bg-base-100 px-6 lg:px-20 transition-colors duration-500 pt-20 md:pt-0"
       id="home"
     >
       <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-10">
@@ -41,7 +41,7 @@ const Home = () => {
             />
           </div>
 
-          <p className="block text-lg md:text-md font-normal text-neutral-400  transition-colors duration-500">
+          <p className="block text-base sm:text-lg md:text-md font-normal text-neutral-400 transition-colors duration-500">
             I support applications and IT networks while developing tools to improve workflows and productivity. With experience in software development and cloud operations, I focus on security to deliver reliable and efficient solutions.
           </p>
           <div className="mt-8">
@@ -60,10 +60,10 @@ const Home = () => {
               What I do?
             </p>
             <div className="flex flex-col items-center lg:items-start gap-3">
-              <div className="flex gap-3 mb-2">
-                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-7 flex items-center font-poppins text-sm font-semibold shadow transition-colors duration-500">Software Development</span>
-                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-7 flex items-center font-poppins text-sm font-semibold shadow transition-colors duration-500">Cybersecurity</span>
-                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-7 flex items-center font-poppins text-sm font-semibold shadow transition-colors duration-500">Network Administration</span>
+              <div className="flex flex-wrap gap-2 sm:gap-3 mb-2 justify-center lg:justify-start">
+                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Software Development</span>
+                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Cybersecurity</span>
+                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Network Administration</span>
               </div>
               <div className="flex gap-4 mt-2">
                 <a
