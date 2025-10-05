@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <motion.section
       id="skills"
-      className="min-h-screen bg-base-100 border-t border-base-300 transition-colors duration-500"
+      className="min-h-screen bg-base-100 transition-colors duration-500"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}

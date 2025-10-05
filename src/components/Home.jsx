@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPaperPlane } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 import "./custom-fix.css";
 import { motion } from "framer-motion";
@@ -45,7 +45,18 @@ const Home = () => {
             I support applications and IT networks while developing tools to improve workflows and productivity. With experience in software development and cloud operations, I focus on security to deliver reliable and efficient solutions.
           </p>
           <div className="mt-8">
-            <p className="block text-lg md:text-md font-poppins font-normal text-base-content transition-colors duration-500 mb-4">
+            <ScrollLink
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              className="group mb-4 inline-flex items-center gap-2 justify-center w-auto min-w-[3.5rem] h-14 px-6 rounded-full border-2 border-primary text-primary bg-transparent font-semibold shadow transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary hover:bg-primary hover:text-primary-content"
+              aria-label="Let's Connect!"
+            >
+              <FaPaperPlane className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
+              <span>Let's Connect!</span>
+            </ScrollLink>
+            <p className="block text-lg md:text-md font-poppins font-normal text-base-content mb-4">
               What I do?
             </p>
             <div className="flex flex-col items-center lg:items-start gap-3">
