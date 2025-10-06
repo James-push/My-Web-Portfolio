@@ -63,6 +63,7 @@ const Home = () => {
                 <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Software Development</span>
                 <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Cybersecurity</span>
                 <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Network Administration</span>
+                <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">UI/UX</span>
               </div>
               <div className="flex gap-4 mt-2">
                 <a
