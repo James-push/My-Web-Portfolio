@@ -71,7 +71,7 @@ const experiences = [
 
 export default function ExperienceTimeline() {
   return (
-    <section id="Experience" className="py-24 md:py-32 bg-base-100 text-base-content transition-colors duration-500">
+    <section id="experience" className="py-24 md:py-32 bg-base-100 text-base-content transition-colors duration-500">
       <Timeline data={experiences} />
     </section>
   )

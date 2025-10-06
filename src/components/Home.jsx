@@ -50,20 +50,19 @@ const Home = () => {
               smooth={true}
               duration={500}
               offset={-70}
-              className="group mb-4 inline-flex items-center gap-2 justify-center w-auto min-w-[3.5rem] h-14 px-6 rounded-full border-2 border-primary text-primary bg-transparent font-semibold shadow transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary hover:bg-primary hover:text-primary-content"
+              className="group mb-8 inline-flex items-center gap-2 justify-center w-auto min-w-[3.5rem] h-10 px-6 rounded-full border-2 border-primary text-primary bg-transparent font-semibold shadow transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary hover:bg-primary hover:text-primary-content"
               aria-label="Let's Connect!"
             >
-              <FaPaperPlane className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
-              <span>Let's Connect!</span>
+              <span>Let's connect!</span>
             </ScrollLink>
             <p className="block text-lg md:text-md font-poppins font-normal text-base-content mb-4">
               What I do?
             </p>
             <div className="flex flex-col items-center lg:items-start gap-3">
               <div className="flex flex-wrap gap-2 sm:gap-3 mb-2 justify-center lg:justify-start">
-                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Software Development</span>
-                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Cybersecurity</span>
-                <span className="bg-primary text-primary-content rounded-full px-2 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Network Administration</span>
+                <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Software Development</span>
+                <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Cybersecurity</span>
+                <span className="bg-primary text-primary-content rounded-full px-3.5 py-0.5 h-6 sm:h-7 flex items-center font-poppins text-xs sm:text-sm font-semibold shadow transition-colors duration-500">Network Administration</span>
               </div>
               <div className="flex gap-4 mt-2">
                 <a
