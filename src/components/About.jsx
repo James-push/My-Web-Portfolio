@@ -10,11 +10,18 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-            <h2 className="text-6xl font-bold mb-6 text-center">About Me</h2>
-            <div className="w-20 h-1 bg-primary rounded-full mt-2 mb-8 mx-auto"></div>
-            <p className="max-w-2xl mx-auto text-lg md:text-xl text-neutral-500 dark:text-neutral-300 text-center font-poppins transition-colors duration-500">
-                
-            </p>
+                <div className="flex flex-col items-center md:items-end md:pr-16 lg:pr-32 h-full w-full">
+                    <h2 className="text-6xl font-bold mb-4 text-center md:text-right w-full">About Me</h2>
+                    <div className="h-1 w-28 mb-4 bg-primary rounded-full transition-colors duration-500"></div>
+                    <p className="max-w-2xl text-lg md:text-xl text-base-content text-center md:text-right font-poppins">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    </p>
+                    <br/>
+                    <p className="max-w-2xl text-lg md:text-xl text-base-content text-center md:text-right font-poppins">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    </p>
+                    
+                </div>
         </motion.section>
     );
 }

@@ -23,7 +23,7 @@ const Home = () => {
         >
           <h1 className="transition-colors duration-500 text-center lg:text-left">
             <span className="block text-lg md:text-xl font-medium text-primary">
-              Hi there! 👋, I'm
+              Hi there! 👋 I'm
             </span>
             <span className="block text-5xl md:text-6xl font-bold text-base-content">
               Jesse James
