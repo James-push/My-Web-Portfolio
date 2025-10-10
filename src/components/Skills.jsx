@@ -33,8 +33,8 @@ const Skills = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-6xl font-bold mb-4 text-center">My Tech Stack</h2>
-  <div className="w-28 h-1 bg-primary rounded-full mt-2 mb-8 mx-auto"></div>
+    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-center">My Tech Stack</h2>
+    <div className="w-16 sm:w-20 md:w-28 h-1 bg-primary rounded-full mt-2 mb-8 mx-auto"></div>
 
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 gap-y-18 justify-items-center">
           {skills.map((skill) => {
