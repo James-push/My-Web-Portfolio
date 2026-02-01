@@ -14,7 +14,7 @@ const experiences = [
       },
       {
         title: "Network Infrastructure Management",
-        description: "Manage and configure network infrastructure — including VPNs, ports, DNS, and TCP/UDP protocols — ensuring high availability, scalability, and security. Implemented a site-to-site VPN to centralize network connectivity across remote sites and deployed Pi-hole on Linux to block unwanted ads and malicious websites, serving as a DNS server for enhanced network security. Contributed to configuring load balancing and failover mechanisms using TP-Link Omada, which completely eliminated manual processes such as switching between ISPs, resulting in a fully automated and more reliable network environment. "
+        description: "Manage and configure network infrastructure — including VPNs, ports, DNS, and TCP/UDP protocols — ensuring high availability, scalability, and security. Implemented a site-to-site VPN to centralize network connectivity across remote sites and deployed AdGuard on container to block unwanted ads and malicious websites, serving as a DNS server for enhanced network security. Contributed to configuring load balancing and failover mechanisms using TP-Link Omada, which completely eliminated manual processes such as switching between ISPs, resulting in a fully automated and more reliable network environment. "
       },
       {
         title: "Account & User Management",

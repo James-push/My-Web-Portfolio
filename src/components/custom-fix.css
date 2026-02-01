@@ -14,7 +14,7 @@
 }
 
 
-.custom-skill-label {
+[data-theme="light"] .custom-skill-label {
   color: #5a5a5a; /* Tailwind neutral-700 */
 }
 [data-theme="dark"] .custom-skill-label {

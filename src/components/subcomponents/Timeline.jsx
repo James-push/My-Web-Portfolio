@@ -55,7 +55,7 @@ const Timeline = ({ data }) => {
                 {item.title}
               </h3>
               <h4 className="text-lg font-semibold mb-2 text-primary transition-colors duration-500">{item.company}</h4>
-              <p className="block text-sm mb-4 text-neutral-500 dark:text-neutral-300 transition-colors duration-500">{item.period}</p>
+              <p className="block text-sm mb-4 custom-skill-label transition-colors duration-100">{item.period}</p>
               <ul className="space-y-3 sm:space-y-4">
                       {item.responsibilities.map((resp, idx) => (
                         <li key={idx} className="space-y-1">

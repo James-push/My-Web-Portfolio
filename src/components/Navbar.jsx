@@ -3,9 +3,8 @@ import { ThemeContext } from "../ThemeContext";
 import { Link } from "react-scroll";
 import { Menu, X, Sun, Moon } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({ isOpen, setIsOpen }) => {
   const { theme, toggleTheme } = useContext(ThemeContext);
-  const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
     { id: "home", label: "Home" },
@@ -17,7 +16,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/30 dark:bg-gray-900/10 dark:border-gray-700/30 shadow-md">
+    <nav className={`fixed top-0 w-full z-50 backdrop-blur-md bg-white/30 dark:bg-gray-900/10 dark:border-gray-700/30 shadow-md transition-transform duration-300 ease-in-out ${
+      isOpen ? "-translate-x-64" : "translate-x-0"
+    }`}>
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <Link
@@ -88,26 +89,6 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-  <ul className="md:hidden bg-white/30 dark:bg-gray-900/30 backdrop-blur-md border-t border-white/20 dark:border-gray-700/20 px-6 py-4 space-y-4 text-sm font-semibold">
-          {navItems.map((item) => (
-            <li key={item.id}>
-              <Link
-                to={item.id}
-                smooth={true}
-                duration={500}
-                offset={-70}
-                className="block cursor-pointer transition-colors hover:text-primary"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
     </nav>
   );
 };
