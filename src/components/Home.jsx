@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPaperPlane } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 import "./custom-fix.css";
 import { motion } from "framer-motion";
-import MyPhoto from "../assets/my-photo.jpg"; // Replace with your photo path
+import MyPhoto from "../assets/my-photo.png"; // Replace with your photo path
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {

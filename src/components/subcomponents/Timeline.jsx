@@ -22,6 +22,7 @@ const Timeline = ({ data }) => {
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height])
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1])
+  const circleYTransform = useTransform(scrollYProgress, [0, 1], [0, height])
 
   return (
     <div className="w-full font-sans md:px-10 bg-base-100 text-base-content transition-colors duration-500" ref={containerRef}>

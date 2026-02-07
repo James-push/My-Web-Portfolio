@@ -13,7 +13,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-base-100 text-base-content min-h-screen overflow-hidden">
+    <div className="bg-base-100 text-base-content min-h-screen">
       {/* Navbar - Fixed and can slide left independently */}
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
 

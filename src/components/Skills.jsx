@@ -1,7 +1,7 @@
 import React from "react";
 import "./custom-fix.css";
 import { motion } from "framer-motion";
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiFlutter, SiFirebase, SiOpenai, SiMysql, SiLinux, SiGnubash, SiPython,  } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiFlutter, SiFirebase, SiOpenai, SiMysql, SiLinux, SiGnubash, SiPython,  SiProxmox, SiN8N } from "react-icons/si";
 import {PiFileCSharpFill , PiFigmaLogoBold } from "react-icons/pi";
 import { RiJavaLine } from "react-icons/ri";
 
@@ -21,6 +21,8 @@ const skills = [
   { name: "Bash", icon: SiGnubash},
   { name: "Figma", icon:  PiFigmaLogoBold},
   { name: "OpenAI", icon: SiOpenai },
+  { name: "Proxmox", icon: SiProxmox },
+  { name: "n8n", icon: SiN8N },
 ];
 
 const Skills = () => {
